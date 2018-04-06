@@ -1,0 +1,19 @@
+{
+    "name": "DenverB/rpc",
+    "description": "a PHP RPC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DenverBYF",
+            "email": "851166182@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "rpc": "src/rpc"
+        }
+    }
+}
